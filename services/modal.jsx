@@ -1,8 +1,8 @@
 export function getModal({ fecharModal }) {
   const modal = (
     <div className="modal" onClick={fecharModal}>
-      <div className="modal-pai" onClick={(e) => e.stopPropagation()}>
-        <span className="fechar-modal" onClick={fecharModal}>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <span className="close-modal" onClick={fecharModal}>
           &times;
         </span>
         <iframe
