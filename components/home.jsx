@@ -29,7 +29,7 @@ const Menu = () => {
           </li>
         </ul>
       </nav>
-      <a href="https://wa.me/553192116990?text=Olá,%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20um%20orçamento" target="_blank" className="nav-tell">
+      <a href="https://wa.me/553192116990?text=Olá,%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20um%20orçamento" target="_blank" rel="noopener noreferrer" className="nav-tell">
         Solicite um Orçamento
       </a>
     </header>

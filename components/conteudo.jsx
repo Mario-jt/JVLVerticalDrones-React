@@ -10,51 +10,56 @@ const Conteudo = () => {
   return (
     <>
       <div id="menu-bt" className="hero-section">
-        <div className="hero-div">
-          <h2 id="menu" className="hero-title">
-            Mapeamento de Terrenos de Alta Precisão com Drones
-          </h2>
-          <p className="hero-subtitle">
-            Transforme a forma como você enxerga seu projeto. Obtenha dados topográficos e aéreos detalhados, de forma rápida e segura. <br />
-            Topografia de precisão, dados confiáveis para o seu projeto. A topografia tradicional é um processo demorado e intensivo, que exige grandes equipes e expõe profissionais a riscos. Com os drones da JVLVerticalDrones, a topografia de precisão é revolucionada, oferecendo uma coleta de dados
-            rápida, segura e com acurácia centimétrica, essencial para o sucesso de qualquer projeto..
-          </p>
+        <div className="hero-bg">
+          <div className="hero-div">
+            <h2 id="menu" className="hero-title">
+              Mapeamento de Terrenos de Alta Precisão com Drones
+            </h2>
+            <p className="hero-subtitle">
+              Transforme a forma como você enxerga seu projeto. Obtenha dados topográficos e aéreos detalhados, de forma rápida e segura. <br />
+              Topografia de precisão, dados confiáveis para o seu projeto. A topografia tradicional é um processo demorado e intensivo, que exige grandes equipes e expõe profissionais a riscos. Com os drones da JVLVerticalDrones, a topografia de precisão é revolucionada, oferecendo uma coleta de
+              dados rápida, segura e com acurácia centimétrica, essencial para o sucesso de qualquer projeto..
+            </p>
+          </div>
         </div>
         <div className="hero-div">
           <h2 className="hero-title">Precisão e Profissionalismo.</h2>
           <p className="hero-subtitle">Para garantir resultados impecáveis em cada projeto, utilizamos uma combinação de hardware e software de ponta, conhecida por sua confiabilidade e precisão no mercado.</p>
         </div>
         <div className="hero-cta">
-          <a id="beneficios" href="https://wa.me/553192116990?text=Olá,%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20um%20orçamento" target="_blank" className="btn-primary">
+          <a id="beneficios" href="https://wa.me/553192116990?text=Olá,%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20um%20orçamento" target="_blank" rel="noopener noreferrer" className="btn-primary">
             Solicite um Orçamento
           </a>
           <button onClick={() => setModalAberto(true)} className="btn-secondary">
             Último Projeto
           </button>
         </div>
-        <div className="hero-div">
-          <h2 className="hero-title">Dji Air 2s: Excelência em Captura de Dados.</h2>
-          <p className="hero-subtitle">
-            Nosso equipamento principal é o drone Dji Air 2s, uma aeronave renomada por sua capacidade de captura de imagens de alta resolução. Com uma câmera de 20MP e um sensor de 1 polegada, ele nos permite coletar dados visuais com detalhes nítidos e precisão excepcional. Sua autonomia de voo e
-            seus sensores avançados garantem a segurança e a eficiência em campo, mesmo em ambientes complexos.
-          </p>
-        </div>
-        <div className="stats-section">
-          <div className="stat-card">
-            <div className="stat-number">30% Redução de custo</div>
-            <div className="stat-label">Menos tempo de campo, menos mão de obra.</div>
+        <div className="hero-bg">
+          <div className="hero-div">
+            <h2 className="hero-title">Dji Air 2s: Excelência em Captura de Dados.</h2>
+            <p className="hero-subtitle">
+              Nosso equipamento principal é o drone Dji Air 2s, uma aeronave renomada por sua capacidade de captura de imagens de alta resolução. Com uma câmera de 20MP e um sensor de 1 polegada, ele nos permite coletar dados visuais com detalhes nítidos e precisão excepcional. Sua autonomia de voo
+              e seus sensores avançados garantem a segurança e a eficiência em campo, mesmo em ambientes complexos.
+            </p>
           </div>
-          <div className="stat-card">
-            <div className="stat-number">Velocidade e Eficiência</div>
-            <div className="stat-label">Reduza drasticamente o tempo de campo e acelere o cronograma do seu projeto.</div>
-          </div>
-          <div className="stat-card">
-            <div className="stat-number">Segurança Máxima</div>
-            <div className="stat-label"> Evite a necessidade de equipe em áreas de difícil acesso ou perigosas.</div>
-          </div>
-          <div className="stat-card">
-            <div className="stat-number">Precisão Impecável</div>
-            <div className="stat-label"> Obtenha dados topográficos com margem de erro mínima, ideais para projetos de engenharia, mineração e agricultura.</div>
+
+          <div className="stats-section">
+            <div className="stat-card">
+              <div className="stat-number">30% Redução de custo</div>
+              <div className="stat-label">Menos tempo de campo, menos mão de obra.</div>
+            </div>
+            <div className="stat-card">
+              <div className="stat-number">Velocidade e Eficiência</div>
+              <div className="stat-label">Reduza drasticamente o tempo de campo e acelere o cronograma do seu projeto.</div>
+            </div>
+            <div className="stat-card">
+              <div className="stat-number">Segurança Máxima</div>
+              <div className="stat-label"> Evite a necessidade de equipe em áreas de difícil acesso ou perigosas.</div>
+            </div>
+            <div className="stat-card">
+              <div className="stat-number">Precisão Impecável</div>
+              <div className="stat-label"> Obtenha dados topográficos com margem de erro mínima, ideais para projetos de engenharia, mineração e agricultura.</div>
+            </div>
           </div>
         </div>
         <div className="hero-div">
@@ -84,10 +89,16 @@ const Conteudo = () => {
           <div className="footer-contact">
             <h4>Contato</h4>
             <p>
-              Email: <a href="mailto:jvlverticaldrones@gmail.com">jvlverticaldrones@gmail.com</a>
+              Email:{" "}
+              <a href="mailto:jvlverticaldrones@gmail.com" target="_blank" rel="noopener noreferrer">
+                jvlverticaldrones@gmail.com
+              </a>
             </p>
             <p>
-              Telefone: <a href="tel:+55 (31) 9211-6990">+55 (31) 9211-6990</a>
+              Telefone:{" "}
+              <a href="tel:+55 (31) 9211-6990" target="_blank" rel="noopener noreferrer">
+                +55 (31) 9211-6990
+              </a>
             </p>
           </div>
 
@@ -96,7 +107,7 @@ const Conteudo = () => {
             <div className="social-icons">
               <a href="https://www.instagram.com/jvlverticaldrones" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-instagram">
-                  <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
@@ -108,7 +119,7 @@ const Conteudo = () => {
               </a>
               <a href="https://www.youtube.com/@JVLVerticalDrones" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-facebook">
-                  <svg fill="#ffffffff" width="25px" height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+                  <svg fill="#ffffffff" width="35px" height="35px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
                     <path d="M23,9.71a8.5,8.5,0,0,0-.91-4.13,2.92,2.92,0,0,0-1.72-1A78.36,78.36,0,0,0,12,4.27a78.45,78.45,0,0,0-8.34.3,2.87,2.87,0,0,0-1.46.74c-.9.83-1,2.25-1.1,3.45a48.29,48.29,0,0,0,0,6.48,9.55,9.55,0,0,0,.3,2,3.14,3.14,0,0,0,.71,1.36,2.86,2.86,0,0,0,1.49.78,45.18,45.18,0,0,0,6.5.33c3.5.05,6.57,0,10.2-.28a2.88,2.88,0,0,0,1.53-.78,2.49,2.49,0,0,0,.61-1,10.58,10.58,0,0,0,.52-3.4C23,13.69,23,10.31,23,9.71ZM9.74,14.85V8.66l5.92,3.11C14,12.69,11.81,13.73,9.74,14.85Z" />
                   </svg>
                 </i>
